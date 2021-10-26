@@ -169,7 +169,7 @@ def detect_mask_video():
                   break
 
           cap.release()
-  except AttributeError:
+  except :
     pass
 
 while True:
